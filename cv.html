@@ -4,37 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="CV Aulia Yasmin">
-    <link rel="stylesheet" href="style.css">
-    <title>CV | Aulia Yasmin</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ffe4e1;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #ff69b4;
+        }
+        .profile-pic {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ff69b4;
+        }
+        .card {
+            background: #ffebef;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #ff69b4;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 5px;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a, .download-btn {
+            text-decoration: none;
+            color: #fff;
+            background: #ff69b4;
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin: 0 10px;
+            transition: background 0.2s;
+        }
+        nav a:hover, .download-btn:hover {
+            background: #ff1493;
+        }
+    </style>
+    <title>My CV | Aulia Yasmin</title>
 </head>
 <body>
-    <header>
-        <div class="pink-ribbon">──── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ────</div>
-        <h1>♡₊˚ My CV 🦢・₊✧</h1>
-        <div class="pink-ribbon">──── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ────</div>
-    </header>
-    <section id="cv">
-        <h2>Education 🎓</h2>
-        <p>Institut Teknologi PLN - Information Systems</p>
-        
-        <h2>Certifications 📜</h2>
-        <ul>
-            <li>Basic English Education Standardization, 2024</li>
-            <li>Microsoft Office Specialist, 2024</li>
-            <li>Cambridge International Young Learners English (Pre A1 Starter)</li>
-            <li>Comittee Pelatihan Kader Dasar Taruna Melati 1, 2019</li>
-            <li>FOJB Around School Education Cianjur, 2019</li>
-        </ul>
-        
-        <h2>Projects 💻</h2>
-        <ul>
-            <li>Fiber Connect - Computer Networks Project</li>
-        </ul>
-    </section>
-    <footer>
-        <div class="pink-ribbon">──── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ────</div>
-        <p>♡ itsme.ayas@gmail.com ♡</p>
-        <div class="pink-ribbon">──── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ────</div>
-    </footer>
+    <div class="container">
+        <header>
+            <h1>💖 My CV 💖</h1>
+        </header>
+        <section class="card">
+            <img src="myself.png" alt="Aulia Yasmin" class="profile-pic">
+            <h2>About Me</h2>
+            <p>Hi, I'm Aulia! I'm passionate about technology and design. Currently studying Information Systems at Institut Teknologi PLN.</p>
+        </section>
+        <section class="card">
+            <h3>Skills:</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>UI/UX Design</li>
+                <li>Database Management</li>
+            </ul>
+        </section>
+        <section class="card">
+            <h3>Experience:</h3>
+            <ul>
+                <li>PT Sayur Segar Decoz - Tim Packing dan Pencatatan Nota</li>
+            </ul>
+        </section>
+        <section class="card">
+            <h3>Certifications:</h3>
+            <ul>
+                <li>Basic English Education Standardization, Language Development Center, Certificate Number: 3365/E032/BEES/13/02/2024, 2024</li>
+                <li>Microsoft Office Specialist, Microsoft, Certificate Number: 90085838/wkTKh-2FNW, 2024</li>
+                <li>Cambridge International Young Learners English (Pre A1 Starter), Certificate Number: 201611187</li>
+                <li>Cambridge International Young Learners English (Pre A1 Starter), Certificate Number: 201706008</li>
+                <li>Committee Pelatihan Kader Dasar Taruna Melati 1, Certificate Number: B. 1-X/PR IPM SMP ICM-03/2019</li>
+                <li>FOJB Around School Education Cianjur 2019, Certificate Number: B.2-031/SKt/CJR-FOJB/IX/2019</li>
+            </ul>
+        </section>
+        <section class="card">
+            <h3>Projects:</h3>
+            <ul>
+                <li>Edu Vibe App - AI Study Companion</li>
+                <li>Natural Galore - Makeup Blog</li>
+                <li>Fiber Connect - Computer Network Project</li>
+            </ul>
+        </section>
+        <section class="card" style="text-align: center;">
+            <a href="cv-aulia-yasmin.pdf" class="download-btn" download>Download CV</a>
+        </section>
+        <footer>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact Me</a>
+            </nav>
+        </footer>
+    </div>
 </body>
 </html>
